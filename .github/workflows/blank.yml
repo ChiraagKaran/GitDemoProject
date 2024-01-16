@@ -1,7 +1,7 @@
 name: Test_Action
 on:
   push:
-    branches: ['Dev']
+    branches: ['main']
 
 jobs:
   say_hello:
