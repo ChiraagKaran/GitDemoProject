@@ -8,11 +8,11 @@ on:
   push:
     branches:
       - main
-      - dev
+      - 'releases/**'
   pull_request:
     branches:
       - main
-      - dev
+      - 'releases/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
