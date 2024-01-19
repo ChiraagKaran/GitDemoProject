@@ -47,3 +47,4 @@ git reset <commit hash>                         [goes back to however it was at 
 
 git stash                                       [all un-committed current changes will be in the 'back-stage'. We'll only see what was there at the latest commit.]
 git stash pop                                   [will get back the stashed changes to view]
+git reset --hard origin                         [makes local repo same as GitHub one]
