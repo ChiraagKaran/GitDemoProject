@@ -37,4 +37,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           git branch --all
-
+          git 
+          git remote add origin git@github.com:ChiraagKaran/GitDemoProject.git
